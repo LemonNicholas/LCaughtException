@@ -9,7 +9,7 @@ dependencies {
 ```
 
 # Application
-Create new class extedns application then control is it debug mode. If true when crash will open a page list crash log, if false will back to normal.
+Create new class extedns **Application** then control is it debug mode. If true when crash will open a page list crash log, if false will back to normal.
 ```
 public class BaseApplication extends Application {
     @Override
@@ -23,7 +23,7 @@ public class BaseApplication extends Application {
 ```
 
 # Activity
-Every Activity extends BaseExceptionActivity
+Every Activity extends **BaseExceptionActivity**
 ```
 public class MainActivity extends BaseExceptionActivity {
 ```
