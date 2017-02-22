@@ -9,7 +9,7 @@ dependencies {
 ```
 
 # Application
-Create new class extedns application
+Create new class extedns application then control is it debug mode. If true when crash will open a page list crash log, if false will back to normal.
 ```
 public class BaseApplication extends Application {
     @Override
